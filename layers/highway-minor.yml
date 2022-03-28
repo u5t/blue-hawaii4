@@ -17,8 +17,8 @@ filter:
     - service
     - track
 layout:
-  line-cap: round
-  line-join: round
+  line-cap: square
+  line-join: square
 paint:
   line-color: '#ffffff'
   line-opacity: 1
@@ -28,6 +28,6 @@ paint:
       - - 13.5
         - 0
       - - 14
-        - 2.5
+        - 5
       - - 20
         - 11.5

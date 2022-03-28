@@ -25,20 +25,20 @@ layout:
     - Noto Sans Regular
   text-anchor: top
   icon-anchor: bottom
-  icon-image:
-    - coalesce
-    - - image
-      - - concat
-        - - get
-          - class
-        - '-JP'
-    - - image
-      - - concat
-        - - get
-          - class
-        - ''
-    - - image
-      - circle
+  # icon-image:
+  #   - coalesce
+  #   - - image
+  #     - - concat
+  #       - - get
+  #         - class
+  #       - '-JP'
+  #   - - image
+  #     - - concat
+  #       - - get
+  #         - class
+  #       - ''
+  #   - - image
+  #     - circle
   text-field: '{name}'
   text-offset:
     - 0
@@ -47,7 +47,7 @@ layout:
   text-max-width: 9
   visibility: visible
 paint:
-  text-halo-blur: 0.5
-  text-color: '#666'
-  text-halo-width: 1
+  text-halo-blur: 1
+  text-color: '#000'
+  text-halo-width: 2
   text-halo-color: '#ffffff'

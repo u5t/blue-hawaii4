@@ -13,7 +13,7 @@ filter:
     - secondary
     - tertiary
 layout:
-  line-cap: round
+  line-cap: square
   line-join: round
   visibility: visible
 paint:
@@ -31,5 +31,5 @@ paint:
         - 0
       - - 8
         - 0.5
-      - - 20
-        - 13
+      - - 14
+        - 8

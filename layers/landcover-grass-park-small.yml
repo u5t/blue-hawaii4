@@ -1,4 +1,4 @@
-id: landcover-grass
+id: landcover-grass-park-small
 type: fill
 source: geolonia
 source-layer: landcover
@@ -10,7 +10,7 @@ filter:
   - - '=='
     - class
     - grass
-  - - '!=='
+  - - '=='
     - subclass
     - park
   - - '!='
